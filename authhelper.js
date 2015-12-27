@@ -2,9 +2,9 @@ var AuthenticationContext = require("adal-node").AuthenticationContext;
 
 var credentials = {
     authority: "https://login.microsoftonline.com/common",
-    client_id: "d55e0fa9-6fdf-459e-bb21-81619cda4222",
-    client_secret: "SAHVk+DDEqFRwQcDk1RPl3qxBrsopYqMnvOeumtKN3Q=",
-    redirect_url: "http://localhost:5858/login"
+    client_id: "f3646f98-2455-4fed-84d9-b7ac496d03a8",
+    client_secret: "HvKMoIUdV154rx8hsP/5+LqIxiPESLK8arU8h97hZZo=",
+    redirect_url: "http://localhost:4545/login"
 };
 
 function getAuthUrl(res) {
